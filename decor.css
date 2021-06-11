@@ -1,0 +1,45 @@
+body { 
+    height: 100% ;
+    background-color:#fbfdff
+ }
+a {
+ color:black;
+}
+a:hover{
+    color: darkgray;
+    
+}
+a:active{
+    color:red;
+    background-color:darkgray;
+}
+#main { 
+
+height: 80vh;
+min-height: 400px;
+font-family:Georgia, 'Times New Roman', Times, serif;
+position: relative;
+margin-bottom: 1em;
+    
+
+}
+#main::before{
+    content: "";
+    background-image:url('images/header.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.5;
+}
+label{
+    text-align: center;
+    }
+footer{
+    margin-top: 1em;
+    clear:both;
+    color:lightslategray;
+}
+
